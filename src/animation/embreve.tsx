@@ -1,6 +1,7 @@
 import { Container, chakra, shouldForwardProp } from '@chakra-ui/react'
 import { motion, isValidMotionProp } from 'framer-motion'
 import { Text } from '@chakra-ui/react'
+import { InfoIcon } from '@chakra-ui/icons'
 
 const ChakraBox = chakra(motion.div, {
   /**
@@ -9,37 +10,43 @@ const ChakraBox = chakra(motion.div, {
   shouldForwardProp: prop => isValidMotionProp(prop) || shouldForwardProp(prop)
 })
 
-export default function Animation1() {
+export default function EmBreve() {
   return (
     <Container
-      h="100%"
-      w={'100%'}
+      h="90%"
       display="flex"
       alignItems="center"
-      justifyContent="center"
+      justifyContent="space-around"
+      flexDirection={'column'}
     >
       <ChakraBox
         animate={{
-          scale: [0, 1.2, 1.2, 1.1],
-          rotate: [0, 360, 360, 0],
-          borderRadius: ['5%', '20%', '20%', '5%']
+          scaleX: [0, 1, 0],
+          motionDistance: [0, 1]
         }}
         // @ts-ignore no problem in operation, although type error appears.
         transition={{
-          duration: 4,
+          duration: 2,
           ease: 'easeInOut',
-          repeat: 'none',
+          repeat: Infinity,
           repeatType: 'loop'
         }}
-        bgImg={'./img/ricardo.jpg'}
-        shadow={'dark-lg'}
-        bgSize={'100%'}
-        bgRepeat={'no-repeat'}
         display="flex"
-        alignItems="normal"
-        width="450px"
-        height="350px"
-      ></ChakraBox>
+        justifyContent="center"
+        alignItems="center"
+        width="100%"
+        height="100px"
+      >
+        <Text
+          bgGradient="linear(to-l, #FF0080, #000000)"
+          bgClip="text"
+          fontSize={{ base: 'md', md: 'lg' }}
+          fontFamily={'sans-serif'}
+          fontWeight={'bold'}
+        >
+          Em Breve!
+        </Text>
+      </ChakraBox>
     </Container>
   )
 }

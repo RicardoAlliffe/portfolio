@@ -10,13 +10,15 @@
   },
   "dependencies": {
     "@chakra-ui/icons": "^2.0.9",
+    "@types/react-router-dom": "^5.3.3",
     "@types/styled-components": "^5.1.9",
     "axios": "^1.2.3",
     "babel-plugin-styled-components": "^2.0.7",
     "next": "^12.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-icons": "^4.4.0"
+    "react-icons": "^4.4.0",
+    "react-router-dom": "^6.13.0"
   },
   "devDependencies": {
     "@chakra-ui/react": "^2.7.0",
