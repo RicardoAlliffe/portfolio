@@ -20,6 +20,34 @@ export default function AnimationText() {
     >
       <ChakraBox
         animate={{
+          translateX: ['-100%', '0%']
+        }}
+        // @ts-ignore no problem in operation, although type error appears.
+        transition={{
+          duration: 3,
+          ease: 'easeInOut',
+          repeat: 'none',
+          repeatType: 'loop'
+        }}
+        display="flex"
+        justifyContent="left"
+        alignItems="center"
+        width="100%"
+        height="100px"
+      >
+        <Text
+          bg="#FFFFFF"
+          bgClip="text"
+          fontSize={'3xl'}
+          fontFamily={'sans-serif'}
+          fontWeight={'bold'}
+        >
+          Olá, Eu Sou
+        </Text>
+      </ChakraBox>
+
+      <ChakraBox
+        animate={{
           scale: [0, 1, 1, 1, 1],
           rotate: [0, 1],
           borderRadius: ['20%', '20%', '50%', '50%', '20%']
@@ -66,6 +94,7 @@ export default function AnimationText() {
         height="100px"
       >
         <Text
+          mt={{ base: '10vh', md: '0vh' }}
           bgGradient="linear(to-l, #FFFFFF, #00FF00)"
           bgClip="text"
           fontSize={'1xl'}

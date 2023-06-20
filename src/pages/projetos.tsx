@@ -55,7 +55,7 @@ export default function Projetos() {
                 h="150px"
                 bgGradient="linear(to-l, #FFFFFF, #00FF00)"
               >
-                Em Breve!
+                <EmBreve />
               </Center>
             </WrapItem>
             <WrapItem>
@@ -66,7 +66,7 @@ export default function Projetos() {
                 h="150px"
                 bgGradient="linear(to-l, #FFFFFF, #00FF00)"
               >
-                Em Breve!
+                <EmBreve />
               </Center>
             </WrapItem>
             <WrapItem>
@@ -77,7 +77,7 @@ export default function Projetos() {
                 h="150px"
                 bgGradient="linear(to-l, #FFFFFF, #00FF00)"
               >
-                Em Breve!
+                <EmBreve />
               </Center>
             </WrapItem>
           </Wrap>

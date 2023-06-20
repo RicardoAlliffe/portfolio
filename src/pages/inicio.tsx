@@ -37,16 +37,6 @@ export default function Inicio() {
           direction={['column', 'column']}
           pb={'10vh'}
         >
-          <Text
-            textColor={'white'}
-            fontSize={'3xl'}
-            fontFamily={'sans-serif'}
-            fontWeight={'bold'}
-            ml={'2vh'}
-          >
-            Olá, Eu Sou
-          </Text>
-
           <AnimationText />
         </Flex>
       </Flex>

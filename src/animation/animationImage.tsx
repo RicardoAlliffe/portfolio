@@ -1,4 +1,9 @@
-import { Container, chakra, shouldForwardProp } from '@chakra-ui/react'
+import {
+  Container,
+  chakra,
+  shouldForwardProp,
+  transform
+} from '@chakra-ui/react'
 import { motion, isValidMotionProp } from 'framer-motion'
 
 const ChakraBox = chakra(motion.div, {
@@ -22,6 +27,7 @@ export default function AnimationImage() {
           borderRadius: ['5%', '10%', '10%', '5%']
         }}
         // @ts-ignore no problem in operation, although type error appears.
+
         transition={{
           duration: 4,
           ease: 'easeInOut',
