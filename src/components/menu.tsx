@@ -1,7 +1,7 @@
 import { isValidMotionProp, motion } from 'framer-motion'
 import { ReactNode } from 'react'
 import { Box, Flex, Link, chakra, Heading, Text } from '@chakra-ui/react'
-import MenuMobile from '../ComponentsMobile/menuMobile'
+import MenuMobile from '../componentsmobile/menuMobile'
 import LogoAnimation from '../animation/logoanimation'
 
 export default function MenuNav() {
