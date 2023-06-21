@@ -1,6 +1,6 @@
 import { VStack } from '@chakra-ui/react'
 import React from 'react'
-import Inicio from './inicio'
+import Inicio from './index'
 
 export default function Portfolio() {
   return (
