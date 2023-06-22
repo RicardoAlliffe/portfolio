@@ -30,7 +30,7 @@ export default function Projetos() {
         <Flex
           w={'100%'}
           h={'25vh'}
-          mt={{ base: '15vh', md: '0vh' }}
+          mt={{ base: '15vh', md: '10vh' }}
           p={'2vh'}
           justifyContent={'center'}
           align={'center'}

@@ -9,7 +9,7 @@ const ChakraBox = chakra(motion.div, {
   shouldForwardProp: prop => isValidMotionProp(prop) || shouldForwardProp(prop)
 })
 
-export default function SobreminAnimation() {
+export default function SobremimAnimation() {
   return (
     <Container
       h="60vh"
@@ -42,7 +42,7 @@ export default function SobreminAnimation() {
           fontFamily={'sans-serif'}
           fontWeight={'bold'}
         >
-          Sobre Min
+          Sobre mim
         </Heading>
       </ChakraBox>
 

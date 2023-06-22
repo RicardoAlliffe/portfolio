@@ -49,7 +49,7 @@ export default function MenuNav() {
             Inicio
           </Text>
         </Link>
-        <Link href="./sobremin" textDecoration={'none'}>
+        <Link href="./sobremim" textDecoration={'none'}>
           <Text
             as={'button'}
             bgGradient="linear(to-l, #FFFFFF, #FF0080)"
@@ -59,7 +59,7 @@ export default function MenuNav() {
               bgClip: 'text'
             }}
           >
-            Sobre Min
+            Sobre mim
           </Text>
         </Link>
         <Link href="./habilidades" textDecoration={'none'}>

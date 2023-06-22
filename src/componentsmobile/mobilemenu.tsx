@@ -30,9 +30,9 @@ export default function MenuMobile() {
           </MenuItem>
         </Link>
 
-        <Link href="./sobremin">
+        <Link href="./sobremim">
           <MenuItem fontWeight={600} fontSize={'lg'}>
-            Sobre Min
+            Sobre Mim
           </MenuItem>
         </Link>
 

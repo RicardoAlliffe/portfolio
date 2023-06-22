@@ -1,4 +1,4 @@
-import { Container, chakra, shouldForwardProp } from '@chakra-ui/react'
+import { Container, Heading, chakra, shouldForwardProp } from '@chakra-ui/react'
 import { motion, isValidMotionProp } from 'framer-motion'
 import { Text } from '@chakra-ui/react'
 

@@ -1,6 +1,6 @@
-import { Flex, Heading, VStack, Text } from '@chakra-ui/react'
+import { Flex, VStack } from '@chakra-ui/react'
 import Menu from '../components/menu'
-import SobreminAnimation from '../animation/sobremin'
+import SobreminAnimation from '../animation/sobremim'
 
 export default function Sobremin() {
   return (
