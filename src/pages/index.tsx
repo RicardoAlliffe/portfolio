@@ -2,10 +2,11 @@ import { Flex, Text, VStack } from '@chakra-ui/react'
 import AnimationText from '../animation/textanimation'
 import MenuNav from '../components/menu'
 import AnimationImage from '../animation/animationImage'
+import Contatofoother from '../components/contatofoother'
 
 export default function Inicio() {
   return (
-    <VStack bg={'rgb(43,43,50)'} width={'100%'} height={'100%'}>
+    <VStack bg={'rgb(43,43,50)'} width={'100%'} height={'100vh'}>
       <title>Portfólio | Ricardo Alliffe</title>
       <MenuNav />
       <Flex
@@ -40,6 +41,7 @@ export default function Inicio() {
           <AnimationText />
         </Flex>
       </Flex>
+      <Contatofoother />
     </VStack>
   )
 }

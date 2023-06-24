@@ -1,10 +1,11 @@
 import { Center, Flex, Heading, VStack, Wrap, WrapItem } from '@chakra-ui/react'
 import Menu from '../components/menu'
 import EmBreve from '../animation/embreve'
+import Contatofoother from '../components/contatofoother'
 
 export default function Projetos() {
   return (
-    <VStack bg={'rgb(43,43,50)'} width={'100%'} height={'fit-content'}>
+    <VStack bg={'rgb(43,43,50)'} width={'100%'} height={'100vh'}>
       <title>Portfólio | Ricardo Alliffe</title>
       <Menu />
       <Flex
@@ -83,6 +84,7 @@ export default function Projetos() {
           </Wrap>
         </Flex>
       </Flex>
+      <Contatofoother />
     </VStack>
   )
 }
