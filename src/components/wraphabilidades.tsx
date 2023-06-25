@@ -7,11 +7,9 @@ import {
   PopoverContent,
   PopoverHeader,
   PopoverTrigger,
-  Tooltip,
   Wrap,
   chakra,
-  shouldForwardProp,
-  useDisclosure
+  shouldForwardProp
 } from '@chakra-ui/react'
 
 import {

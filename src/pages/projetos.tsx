@@ -1,4 +1,4 @@
-import { Center, Flex, Heading, VStack, Wrap, WrapItem } from '@chakra-ui/react'
+import { Flex, Heading, VStack, Wrap, WrapItem } from '@chakra-ui/react'
 import Menu from '../components/menu'
 import EmBreve from '../animation/embreve'
 import Contatofoother from '../components/contatofoother'

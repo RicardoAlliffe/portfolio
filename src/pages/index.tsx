@@ -1,4 +1,4 @@
-import { Flex, Text, VStack } from '@chakra-ui/react'
+import { Flex, VStack } from '@chakra-ui/react'
 import AnimationText from '../animation/textanimation'
 import MenuNav from '../components/menu'
 import AnimationImage from '../animation/animationImage'

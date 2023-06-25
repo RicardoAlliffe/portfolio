@@ -1,7 +1,6 @@
 import { Center, Container, chakra, shouldForwardProp } from '@chakra-ui/react'
 import { motion, isValidMotionProp } from 'framer-motion'
 import { Text } from '@chakra-ui/react'
-import { InfoIcon } from '@chakra-ui/icons'
 
 const ChakraBox = chakra(motion.div, {
   /**
