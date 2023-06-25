@@ -26,7 +26,7 @@ export default function Contato() {
         justify={{ base: 'center', md: 'space-between' }}
         align={{ base: 'center', md: 'center' }}
       >
-        <Text fontSize={{ base: 'sm', md: 'lg' }}>
+        <Text fontSize={{ base: 'sm', md: 'lg' }} fontFamily={'initial'}>
           © 2023 Ricardo Álliffe, todos direitos reservados.
         </Text>
         <Stack direction={{ base: 'row', md: 'row-reverse' }} spacing={6}>

@@ -36,10 +36,9 @@ export default function SobremimAnimation() {
         height="100px"
       >
         <Heading
-          bgGradient="linear(to-l, #FFFFFF, #00FF00)"
-          bgClip="text"
+          textColor={'white'}
           fontSize={'4xl'}
-          fontFamily={'sans-serif'}
+          fontFamily={'initial'}
           fontWeight={'bold'}
         >
           Sobre mim
@@ -67,6 +66,7 @@ export default function SobremimAnimation() {
           color={'rgb(255,255,255, 0.8)'}
           align={'center'}
           fontSize={{ base: 'none', md: '2xl' }}
+          fontFamily={'initial'}
         >
           Desenvolvedor Front-end com experiência em React.js, Next.js,
           JavaScript, TypeScript, Styled Components, Material UI e consumo de

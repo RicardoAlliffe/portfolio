@@ -33,17 +33,15 @@ export default function MenuNav() {
         w={'60vh'}
         fontSize={'2xl'}
         justifyContent={'space-between'}
-        fontFamily={'cursive'}
+        fontFamily={'initial'}
         display={{ base: 'none', md: 'flex' }}
       >
         <Link href="./portfolio" textDecoration={'none'}>
           <Text
             as={'button'}
-            bgGradient="linear(to-l, #FFFFFF, #FF0080)"
-            bgClip="text"
+            textColor={'white'}
             _hover={{
-              bgGradient: 'linear(to-l, #FFFFFF, #00FF00)',
-              bgClip: 'text'
+              textColor: 'whiteAlpha.600'
             }}
           >
             Inicio
@@ -52,11 +50,9 @@ export default function MenuNav() {
         <Link href="./sobremim" textDecoration={'none'}>
           <Text
             as={'button'}
-            bgGradient="linear(to-l, #FFFFFF, #FF0080)"
-            bgClip="text"
+            textColor={'white'}
             _hover={{
-              bgGradient: 'linear(to-l, #FFFFFF, #00FF00)',
-              bgClip: 'text'
+              textColor: 'whiteAlpha.600'
             }}
           >
             Sobre mim
@@ -65,11 +61,9 @@ export default function MenuNav() {
         <Link href="./habilidades" textDecoration={'none'}>
           <Text
             as={'button'}
-            bgGradient="linear(to-l, #FFFFFF, #FF0080)"
-            bgClip="text"
+            textColor={'white'}
             _hover={{
-              bgGradient: 'linear(to-l, #FFFFFF, #00FF00)',
-              bgClip: 'text'
+              textColor: 'whiteAlpha.600'
             }}
           >
             Habilidades
@@ -78,11 +72,9 @@ export default function MenuNav() {
         <Link href="./projetos" textDecoration={'none'}>
           <Text
             as={'button'}
-            bgGradient="linear(to-l, #FFFFFF, #FF0080)"
-            bgClip="text"
+            textColor={'white'}
             _hover={{
-              bgGradient: 'linear(to-l, #FFFFFF, #00FF00)',
-              bgClip: 'text'
+              textColor: 'whiteAlpha.600'
             }}
           >
             Projetos

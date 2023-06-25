@@ -64,15 +64,18 @@ export default function Habilidades() {
           >
             <Flex direction={'column'} align={'center'}>
               <Heading
-                bgGradient="linear(to-l, #FFFFFF, #00FF00)"
-                bgClip="text"
+                textColor={'white'}
                 fontSize={{ base: '4xl', md: '4xl' }}
-                fontFamily={'sans-serif'}
+                fontFamily={'initial'}
                 fontWeight={'bold'}
               >
                 Habilidades
               </Heading>
-              <Text color={'white'} fontSize={{ base: '3xs', md: '2xl' }}>
+              <Text
+                color={'whiteAlpha.700'}
+                fontSize={{ base: '3xs', md: '2xl' }}
+                fontFamily={'initial'}
+              >
                 Clique Em alguma Habilidade abaixo para saber mais.
               </Text>
             </Flex>

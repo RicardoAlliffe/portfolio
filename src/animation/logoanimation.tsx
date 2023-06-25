@@ -37,8 +37,7 @@ export default function LogoAnimation() {
       >
         <Heading
           fontFamily={'initial'}
-          bgGradient="linear(to-l, #FFFFFF, #FF0080)"
-          bgClip="text"
+          textColor={'white'}
           fontSize={{ base: '3xl', md: '5xl' }}
         >
           Portfólio

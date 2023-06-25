@@ -17,13 +17,12 @@ export default function Projetos() {
         display={'flex'}
         direction={'column'}
         padding={'2vh'}
-        mt={{ base: '15vh', md: '0' }}
+        mt={{ base: '10vh', md: '0' }}
       >
         <Heading
-          bgGradient="linear(to-l, #FFFFFF, #00FF00)"
-          bgClip="text"
-          fontSize={'3xl'}
-          fontFamily={'sans-serif'}
+          textColor={'white'}
+          fontSize={'4xl'}
+          fontFamily={'initial'}
           fontWeight={'bold'}
         >
           Projetos
@@ -31,55 +30,21 @@ export default function Projetos() {
         <Flex
           w={'100%'}
           h={'25vh'}
-          mt={{ base: '15vh', md: '10vh' }}
-          p={'2vh'}
+          mt={{ base: '5vh', md: '10vh' }}
           justifyContent={'center'}
-          align={'center'}
         >
-          <Wrap spacing="20px">
+          <Wrap spacing={{ base: '10px', md: '20px' }} justify={'center'}>
             <WrapItem>
-              <Center
-                boxShadow={'dark-lg'}
-                borderRadius={'2xl'}
-                w={{ base: '150px', md: '250px' }}
-                h="150px"
-                bgGradient="linear(to-l, #FFFFFF, #00FF00)"
-              >
-                <EmBreve />
-              </Center>
+              <EmBreve />
             </WrapItem>
             <WrapItem>
-              <Center
-                boxShadow={'dark-lg'}
-                borderRadius={'2xl'}
-                w={{ base: '150px', md: '250px' }}
-                h="150px"
-                bgGradient="linear(to-l, #FFFFFF, #00FF00)"
-              >
-                <EmBreve />
-              </Center>
+              <EmBreve />
             </WrapItem>
             <WrapItem>
-              <Center
-                boxShadow={'dark-lg'}
-                borderRadius={'2xl'}
-                w={{ base: '150px', md: '250px' }}
-                h="150px"
-                bgGradient="linear(to-l, #FFFFFF, #00FF00)"
-              >
-                <EmBreve />
-              </Center>
+              <EmBreve />
             </WrapItem>
             <WrapItem>
-              <Center
-                boxShadow={'dark-lg'}
-                borderRadius={'2xl'}
-                w={{ base: '150px', md: '250px' }}
-                h="150px"
-                bgGradient="linear(to-l, #FFFFFF, #00FF00)"
-              >
-                <EmBreve />
-              </Center>
+              <EmBreve />
             </WrapItem>
           </Wrap>
         </Flex>

@@ -20,11 +20,11 @@ export default function AnimationText() {
     >
       <ChakraBox
         animate={{
-          translateX: ['-100%', '0%']
+          scale: [0, 1]
         }}
         // @ts-ignore no problem in operation, although type error appears.
         transition={{
-          duration: 3,
+          duration: 4,
           ease: 'easeInOut',
           repeat: 'none',
           repeatType: 'loop'
@@ -48,13 +48,11 @@ export default function AnimationText() {
 
       <ChakraBox
         animate={{
-          scale: [0, 1, 1, 1, 1],
-          rotate: [0, 1],
-          borderRadius: ['20%', '20%', '50%', '50%', '20%']
+          scale: [0, 1]
         }}
         // @ts-ignore no problem in operation, although type error appears.
         transition={{
-          duration: 8,
+          duration: 4,
           ease: 'easeInOut',
           repeat: 'none',
           repeatType: 'loop'
@@ -66,8 +64,7 @@ export default function AnimationText() {
         height="100px"
       >
         <Text
-          bgGradient="linear(to-l, #FFFFFF, #FF0080)"
-          bgClip="text"
+          color={'white'}
           fontSize={'4xl'}
           fontFamily={'sans-serif'}
           fontWeight={'bold'}
@@ -77,12 +74,11 @@ export default function AnimationText() {
       </ChakraBox>
       <ChakraBox
         animate={{
-          scale: [0, 1, 1, 1, 1],
-          rotate: [0, 1]
+          scale: [0, 1]
         }}
         // @ts-ignore no problem in operation, although type error appears.
         transition={{
-          duration: 30,
+          duration: 4,
           ease: 'easeInOut',
           repeat: 'none',
           repeatType: 'loop'
@@ -95,8 +91,7 @@ export default function AnimationText() {
       >
         <Text
           mt={{ base: '10vh', md: '0vh' }}
-          bgGradient="linear(to-l, #FFFFFF, #00FF00)"
-          bgClip="text"
+          textColor={'whiteAlpha.800'}
           fontSize={'1xl'}
           fontFamily={'sans-serif'}
           fontWeight={'bold'}
