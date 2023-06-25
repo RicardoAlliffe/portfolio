@@ -16,15 +16,16 @@ import { BsGithub, BsLinkedin, BsWhatsapp } from 'react-icons/bs'
 
 export default function Contato() {
   return (
-    <Box color={'white'} w={'90%'}>
+    <Box color={'white'} w={'100%'}>
       <Container
         as={Stack}
-        maxW={'6xl'}
-        py={4}
+        maxW={'100%'}
+        p={4}
         direction={{ base: 'column-reverse', md: 'row' }}
         spacing={4}
-        justify={{ base: 'center', md: 'space-between' }}
+        justify={{ base: 'end', md: 'space-between' }}
         align={{ base: 'center', md: 'center' }}
+        bgColor={'rgb(26, 32, 44)'}
       >
         <Text fontSize={{ base: 'sm', md: 'lg' }} fontFamily={'initial'}>
           © 2023 Ricardo Álliffe, todos direitos reservados.

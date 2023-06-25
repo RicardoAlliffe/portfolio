@@ -13,7 +13,7 @@ export default function Projetos() {
         h={'100vh'}
         bg={'rgb(43,43,50)'}
         align={'center'}
-        justifyContent={{ base: 'normal', md: 'center' }}
+        justifyContent={{ base: 'space-between', md: 'center' }}
         display={'flex'}
         direction={'column'}
         padding={'2vh'}
@@ -29,8 +29,8 @@ export default function Projetos() {
         </Heading>
         <Flex
           w={'100%'}
-          h={'25vh'}
-          mt={{ base: '5vh', md: '10vh' }}
+          h={{ base: '80%', md: '25vh' }}
+          mt={{ base: '0vh', md: '10vh' }}
           justifyContent={'center'}
         >
           <Wrap spacing={{ base: '10px', md: '20px' }} justify={'center'}>
