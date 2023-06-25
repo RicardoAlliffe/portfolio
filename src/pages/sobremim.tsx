@@ -10,7 +10,7 @@ export default function Sobremin() {
       <Menu />
       <Flex
         w={'100%'}
-        h={'90vh'}
+        h={'100vh'}
         bg={'rgb(43,43,50)'}
         justifyContent={'center'}
         align={'center'}

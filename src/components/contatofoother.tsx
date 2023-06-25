@@ -19,6 +19,7 @@ export default function Contato() {
     <Box color={'white'} w={'100%'}>
       <Container
         as={Stack}
+        shadow={'dark-lg'}
         maxW={'100%'}
         p={4}
         direction={{ base: 'column-reverse', md: 'row' }}
